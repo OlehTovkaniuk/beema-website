@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/beema-website/static/css/main.769aa796.chunk.css",
+    "main.js": "/beema-website/static/js/main.78c34816.chunk.js",
+    "main.js.map": "/beema-website/static/js/main.78c34816.chunk.js.map",
+    "runtime-main.js": "/beema-website/static/js/runtime-main.e10c8c39.js",
+    "runtime-main.js.map": "/beema-website/static/js/runtime-main.e10c8c39.js.map",
+    "static/js/2.3e418821.chunk.js": "/beema-website/static/js/2.3e418821.chunk.js",
+    "static/js/2.3e418821.chunk.js.map": "/beema-website/static/js/2.3e418821.chunk.js.map",
+    "index.html": "/beema-website/index.html",
+    "static/css/main.769aa796.chunk.css.map": "/beema-website/static/css/main.769aa796.chunk.css.map",
+    "static/js/2.3e418821.chunk.js.LICENSE.txt": "/beema-website/static/js/2.3e418821.chunk.js.LICENSE.txt",
+    "static/media/company_team.c341ffa0.jpg": "/beema-website/static/media/company_team.c341ffa0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e10c8c39.js",
+    "static/js/2.3e418821.chunk.js",
+    "static/css/main.769aa796.chunk.css",
+    "static/js/main.78c34816.chunk.js"
+  ]
+}
