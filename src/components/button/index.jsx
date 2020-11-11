@@ -3,11 +3,11 @@ import styled from 'styled-components'
 import { theme } from '../../theme'
 
 const ButtonWrapper = styled.button`
-    padding: 8px 15px;
+    padding: ${({ small }) => (small ? '5px 8px' : '7px 15px')};
     color: #fff;
     background-color: ${theme.primary};
     border-radius: 5px;
-    font-size: 15px;
+    font-size: ${({ small }) => (small ? '12px' : '16px')};
     font-weight: 700;
     letter-spacing: 0.05em;
     border: 2px solid transparent;
