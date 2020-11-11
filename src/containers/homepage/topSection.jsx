@@ -6,6 +6,7 @@ import { Marginer } from '../../components/marginer/index'
 import Button from '../../components/button/index'
 import DownArrow from '../../components/downArrow/index'
 import Navbar from '../../components/navbar'
+import { Element, scroller } from 'react-scroll'
 
 const TopContainer = styled.div`
     width: 100%;
@@ -38,22 +39,29 @@ const DownArrowContainer = styled.div`
     transform: translateX(-50%);
 `;
 
-export default function topSection(props) {
+export default function TopSection(props) {
+
+    const scrollToNextSection = () => {
+        scroller.scrollTo('servicesSection', { smooth: true, duration: 1200 });
+    };
+
     return (
-        <TopContainer>
-            <BackgroundFilter>
-                <Navbar />
-                <Marginer direction="vertical" margin="6vh" />
-                <Logo />
-                <Marginer direction="vertical" margin="6vh" />
-                <MotivationalText>Software Development</MotivationalText>
-                <MotivationalText>From the best in the industry</MotivationalText>
-                <Marginer direction="vertical" margin="5vh" />
-                <Button>Start your Project</Button>
-                <DownArrowContainer>
-                    <DownArrow />
-                </DownArrowContainer>
-            </BackgroundFilter>
-        </TopContainer>
+        <Element name="topSection">
+            <TopContainer>
+                <BackgroundFilter>
+                    <Navbar />
+                    <Marginer direction="vertical" margin="6vh" />
+                    <Logo />
+                    <Marginer direction="vertical" margin="6vh" />
+                    <MotivationalText>Software Development</MotivationalText>
+                    <MotivationalText>From the best in the industry</MotivationalText>
+                    <Marginer direction="vertical" margin="5vh" />
+                    <Button>Start your Project</Button>
+                    <DownArrowContainer onClick={scrollToNextSection}>
+                        <DownArrow />
+                    </DownArrowContainer>
+                </BackgroundFilter>
+            </TopContainer>
+        </Element>
     )
 }
