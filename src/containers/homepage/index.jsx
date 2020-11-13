@@ -1,5 +1,6 @@
 import React from 'react'
 import styled, { isStyledComponent } from 'styled-components'
+import ReviewsSection from './reviewsSection';
 import ServicesSection from './servicesSection';
 import TopSection from './topSection'
 
@@ -15,6 +16,7 @@ export default function Homepage(props) {
         <PageContainer>
             <TopSection />
             <ServicesSection />
+            <ReviewsSection />
         </PageContainer>
     )
 }
