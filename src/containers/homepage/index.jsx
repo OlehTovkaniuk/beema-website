@@ -1,8 +1,10 @@
 import React from 'react'
 import styled, { isStyledComponent } from 'styled-components'
-import ReviewsSection from './reviewsSection';
-import ServicesSection from './servicesSection';
+import ReviewsSection from './reviewsSection'
+import ServicesSection from './servicesSection'
 import TopSection from './topSection'
+import AboutSection from './aboutSection'
+import Footer from '../../components/footer'
 
 const PageContainer = styled.div`
     width: 100%;
@@ -17,6 +19,8 @@ export default function Homepage(props) {
             <TopSection />
             <ServicesSection />
             <ReviewsSection />
+            <AboutSection />
+            <Footer />
         </PageContainer>
     )
 }
