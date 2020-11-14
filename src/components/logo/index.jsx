@@ -6,7 +6,7 @@ import { theme } from '../../theme'
 const LogoContainer = styled.div`
     display: flex;
     flex-direction: ${({ inline }) => inline ? 'row' : 'column'};
-    align-items: ${({ inline }) => inline && 'center'};
+    align-items: center;
 `;
 
 const LogoImg = styled.img`
@@ -17,22 +17,26 @@ const LogoImg = styled.img`
         height: 24px;
         margin-right: 8px;
     `};
+    ${({ small }) => small && css`
+        width: 4.5em;
+        height: 4.5em;
+    `};
         `;
 
 const LogoText = styled.div`
-    font-size: ${({ inline }) => inline ? '17px' : '42px'};
+    font-size: ${({ inline, small }) => inline ? '17px' : small ? '25px' : '42px'};
     color: ${({ inline }) => inline ? '#fff' : theme.primary};
     margin-top: ${({ inline }) => inline ? '0px' : '6px'};
-    font-weight: 700;
+    font-weight: 800;
 `;
 
 export default function Logo(props) {
 
-    const { inline } = props;
+    const { inline, small } = props;
     return (
         <LogoContainer inline={inline}>
-            <LogoImg src={BeemaLogo} inline={inline} />
-            <LogoText inline={inline}>Beema</LogoText>
+            <LogoImg src={BeemaLogo} inline={inline} small={small} />
+            <LogoText inline={inline} small={small}>Beema</LogoText>
         </LogoContainer>
     )
 }
