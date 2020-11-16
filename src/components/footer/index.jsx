@@ -7,12 +7,14 @@ import { Marginer } from '../marginer';
 import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const FooterContainer = styled.div`
-    min-height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #1F1F1F;
     position: relative;
+    @media screen and (max-width: 480px){
+        padding-bottom: 40px
+    };
 `;
 
 const MotivationalText = styled.h1`
@@ -20,6 +22,10 @@ const MotivationalText = styled.h1`
     font-weight: 500;
     color: white;
     line-height: 1.5em;
+
+    @media screen and (max-width: 480px){
+        font-size: 28px;
+    }
 `;
 
 const StyledMotivationalText = styled(MotivationalText)`
@@ -33,6 +39,12 @@ const AccessibilityContainer = styled.div`
     width: 80%;
     color: white;
     padding: 1.5em 1em; 
+
+    @media screen and (max-width: 480px){
+        width: 90%;
+        padding: 1em 0.5em;
+        margin-bottom: 20px; 
+    }
 `;
 
 const LinksContainer = styled.div`
@@ -46,6 +58,10 @@ const Link = styled.a`
     cursor: pointer;
     &:not(:last-of-type) {
         margin-right: 1em;
+
+        @media screen and (max-width: 480px){
+            margin-right: 6px;
+        }
     }
     &:hover {
         color: #bbb;
@@ -62,11 +78,18 @@ const SocialIcon = styled.div`
 
     &:not(:last-of-type) {
         margin-right: 1em;
+        @media screen and (max-width: 480px){
+            margin-right: 10px;
+        }
     }
 
     &:hover {
         color: #bbb;
     }
+
+    @media screen and (max-width: 480px){
+            font-size: 20px;
+        }
 `;
 
 const RightReserved = styled.div`
@@ -77,6 +100,7 @@ const RightReserved = styled.div`
     color: white;
     font-size: 12px;
     letter-spacing: 0.08em;
+    text-align: center;
 `;
 
 

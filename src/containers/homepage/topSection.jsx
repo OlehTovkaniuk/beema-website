@@ -30,6 +30,7 @@ const MotivationalText = styled.h1`
     font-weight: 500;
     color: white;
     line-height: 1.5em;
+    text-align: center;
 `;
 
 const DownArrowContainer = styled.div`

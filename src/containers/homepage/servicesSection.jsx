@@ -17,6 +17,9 @@ const ServicesContainer = styled(Element)`
     flex-direction: column;
     align-items: center;
     padding: 4em 0;
+    @media screen and (max-width: 480px){
+        padding: 4em 0 2em;
+    }
 `;
 
 export default function ServicesSection(props) {

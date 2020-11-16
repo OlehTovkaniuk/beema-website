@@ -9,7 +9,8 @@ const AboutContainer = styled(Element)`
     min-height: 500px;
     display: flex;
     flex-direction: column;
-    align-items: center;   
+    align-items: center;
+    padding: 1em;   
 `;
 
 const AboutContent = styled.div`
@@ -17,6 +18,10 @@ const AboutContent = styled.div`
     max-width: 900px;
     align-items: center;
     justify-content: center;
+    @media screen and (max-width: 480px){
+        max-width: 100%;
+        flex-wrap: wrap-reverse;
+    }
 `;
 
 const AboutText = styled.p`
@@ -28,6 +33,12 @@ const AboutImg = styled.img`
     width: 550px;
     height: 400px;
     margin-left: 2em;
+
+    @media screen and (max-width: 480px){
+        width: 340px;
+        height: 240px;
+        margin-left: 0;
+    }
 `;
 
 export default function AboutSection(props) {
