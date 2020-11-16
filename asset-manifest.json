@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/beema-website/static/css/main.769aa796.chunk.css",
-    "main.js": "/beema-website/static/js/main.1a876067.chunk.js",
-    "main.js.map": "/beema-website/static/js/main.1a876067.chunk.js.map",
+    "main.js": "/beema-website/static/js/main.38d8622c.chunk.js",
+    "main.js.map": "/beema-website/static/js/main.38d8622c.chunk.js.map",
     "runtime-main.js": "/beema-website/static/js/runtime-main.e10c8c39.js",
     "runtime-main.js.map": "/beema-website/static/js/runtime-main.e10c8c39.js.map",
     "static/css/2.136a4374.chunk.css": "/beema-website/static/css/2.136a4374.chunk.css",
-    "static/js/2.f93a580b.chunk.js": "/beema-website/static/js/2.f93a580b.chunk.js",
-    "static/js/2.f93a580b.chunk.js.map": "/beema-website/static/js/2.f93a580b.chunk.js.map",
+    "static/js/2.d0b7e27b.chunk.js": "/beema-website/static/js/2.d0b7e27b.chunk.js",
+    "static/js/2.d0b7e27b.chunk.js.map": "/beema-website/static/js/2.d0b7e27b.chunk.js.map",
     "index.html": "/beema-website/index.html",
     "static/css/2.136a4374.chunk.css.map": "/beema-website/static/css/2.136a4374.chunk.css.map",
     "static/css/main.769aa796.chunk.css.map": "/beema-website/static/css/main.769aa796.chunk.css.map",
-    "static/js/2.f93a580b.chunk.js.LICENSE.txt": "/beema-website/static/js/2.f93a580b.chunk.js.LICENSE.txt",
+    "static/js/2.d0b7e27b.chunk.js.LICENSE.txt": "/beema-website/static/js/2.d0b7e27b.chunk.js.LICENSE.txt",
     "static/media/bug_fixed.805bfbc9.png": "/beema-website/static/media/bug_fixed.805bfbc9.png",
     "static/media/company_team.c341ffa0.jpg": "/beema-website/static/media/company_team.c341ffa0.jpg",
     "static/media/mobile_phone.bdfea3cf.png": "/beema-website/static/media/mobile_phone.bdfea3cf.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.e10c8c39.js",
     "static/css/2.136a4374.chunk.css",
-    "static/js/2.f93a580b.chunk.js",
+    "static/js/2.d0b7e27b.chunk.js",
     "static/css/main.769aa796.chunk.css",
-    "static/js/main.1a876067.chunk.js"
+    "static/js/main.38d8622c.chunk.js"
   ]
 }
